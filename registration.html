@@ -1,0 +1,180 @@
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="./styles/NYSL_Fran.css">
+</head>
+<body>
+    
+    <header>    
+        <a href="./home.html">      
+            <img id="logo" src="nysl_logo.png" alt="" />
+        </a>
+        <span id="tituloWeb">Northside Youth Soccer League</span>
+        <ul class="menu">
+            <li><a  class="menu2" href="./home.html">Home</a></li>
+            <li><a  class="menu2" href="./about.html">About</a></li>
+            <li><a  class="menu2" href="./contact.html">Contact</a></li>
+            <li><a  class="menu2" href="./rules.html">Rules</a></li>
+            <li><a  class="menu2" href="./game_info.html">Game Information</a></li>
+            <li><a  class="menu3" href="./registration.html">Registration</a></li>
+        </ul>
+    </header> 
+
+<div class="regist">
+    <div class="form">
+        <p><strong>REGISTRATION FORM</strong> </p>
+    </div>
+    <form action="show_data.html" method="get">
+        <strong>First name:</strong>
+        <input type="text" name="firstname" size="55"required>
+
+        <strong>Last name:</strong>
+        <input type="text" name="lastname" size="55" required>
+        </br></br> 
+
+        <strong>Street Address:</strong>
+        <input type="text" name="address" size="75" required>
+        
+        <strong>City:</strong>
+        <input type="text" name="city" size="38"required> 
+        </br></br>
+
+        <strong>Zip Code:</strong>
+        <input type="number" name="zip">
+        
+        
+        <strong>Birth date:</strong>
+        <input type="date" name="bday"required>
+
+        <strong>Gender:</strong>
+        <select name="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
+        </br></br>
+
+        <strong>Parent/Guardian:</strong> 
+        <input type="text" name="parent" size="92" required>
+        </br></br>
+
+        <strong>Contact Phone:</strong>
+        <input type="number" name="phone">
+        
+        <strong>E-mail:</strong>
+        <input type="email" name="email" size="60"required>   
+        </br></br>           
+
+        <strong>Which elementary schools do you live near? </strong></br>
+        <table>
+            <tr>
+                <th class="th1">First Closest School:</th>                           
+                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="first" value="Katzenmaier">AJ Katzenmaier</td>
+                <td class="th1"><input type="radio" name="first" value="Marjorie">Marjorie P Hart </td>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="first" value="Greenbayr">Greenbayr</td>
+                <td class="th1"><input type="radio" name="first" value="Katzenmaier">North Elementary</td>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="first" value="Howard">Howard A Yeager</td>
+                <td class="th1"><input type="radio" name="first" value="South">South Elementary</td>
+            </tr>            
+        </table> 
+        
+        <table>
+            <tr>                             
+                <th class="th1">Second Closest School</th>
+                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="second" value="Katzenmaier">AJ Katzenmaier</td>
+                <td class="th1"><input type="radio" name="second" value="Marjorie">Marjorie P Hart </td>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="second" value="Greenbayr">Greenbayr</td>
+                <td class="th1"><input type="radio" name="second" value="Katzenmaier">North Elementary</td>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="second" value="Howard">Howard A Yeager </td>
+                <td class="th1"><input type="radio" name="second" value="South">South Elementary  </td>
+            </tr>
+        </table> 
+        </br>
+        <strong>What position(s) do you normally play? </strong>(check all that apply) </br>
+        <table>
+            <tr>
+                <td class="th1"><input type="radio" name="position" value="Forward" > Forward </td>
+                <td class="th1"><input type="radio" name="position" value="Midfield" >  Midfield  </td>
+            <tr>
+                <td class="th1"><input type="radio" name="position" value="Defense" >Greenbayr</td>
+                <td class="th1"><input type="radio" name="position" value="Goalkeeper" > Goalkeeper</td>
+            </tr>
+        </table>
+        </br>
+        <strong>Already Have a Uniform</strong></br>
+        <table>
+            <tr>
+                <th class="th1"><strong>Jersey Size</strong></th>                              
+                <th class="th1"></th>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="uniform" value="Youth">Youth Small </td>
+                <td class="th1"><input type="radio" name="uniform" value="Medium"> Medium </td>                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="uniform" value="Youth" >Youth Medium</td>
+                <td class="th1"><input type="radio" name="uniform" value="Large" >Large </td>                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="uniform" value="Youth" >Youth Large </td>
+                <td class="th1"><input type="radio" name="uniform" value="Extra" >Extra-Large  </td>                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="uniform" value="Small" >Small </td>                              
+            </tr>
+        </table>
+
+        <table>
+            <tr>                                
+                <th class="th1"><strong>Shorts Size</strong</th>
+                <th class="th1"></th>
+            </tr>
+            <tr>                
+                <td class="th1"><input type="radio" name="shorts" value="Youth" >Youth Small r </td>
+                <td class="th1"><input type="radio" name="shorts" value="Medium" >Medium</td>
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="shorts" value="Youth" >Youth Medium</td>
+                <td class="th1"><input type="radio" name="shorts" value="Large" >Large </td>                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="shorts" value="Youth" >Youth Large </td>
+                <td class="th1"><input type="radio" name="shortst" value="Extra" >Extra-Large  </td>                
+            </tr>
+            <tr>
+                <td class="th1"><input type="radio" name="shorts" value="Small" >Small </td>
+                <td class="th1"></td>                
+            </tr>
+        </table> 
+</div>       
+        <input type="submit" value="SEND" id="boton">
+        <input type="reset" value="RESET" id="boton">
+    </form>    
+    
+    
+<div class="regist2">
+    <p><strong><u>Permission to Play</strong></u></p>
+    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+</div>   
+</body>
+<br>
+</br>
+</body>
+<div class="footer">
+    Created by Fco. Santiago Garrido
+</div>
+
+</html>

@@ -1,0 +1,204 @@
+
+h1{
+    margin: 25px 100px; 
+    font-size: 30px  
+}
+h2{
+    margin: 25px 100px; 
+    font-size: 30px
+}
+
+h3{
+    margin: 25px 100px; 
+    font-size: 30px
+}
+
+.contacto{
+    margin: 100px 200px;
+    text-align: left;
+    text-align: justify;
+}
+
+.home{
+    margin: 90px 180px;
+    text-align: left;
+    text-align: justify;
+}
+
+.text1{
+    margin: 20px 100px;
+    text-align: left;
+    text-align: justify;
+}
+
+.text2{
+    margin: 20px 100px;
+    text-align: left;
+    text-align: justify;
+}
+
+.upcoming events{
+    margin:0px 10px;
+    text-align: left;        
+}
+
+.text4{
+    text-align: center;
+    font-size: x-large;         
+}
+
+.text5{
+    margin:5px 5px;
+}
+.text6{
+    text-align: left;
+    font-size: 18px;     
+}
+.text7{
+    text-align:left;
+    padding: 0ps 40px 0px 0px;
+}
+.rule1{
+    list-style-type:square;
+    margin:10px 5px; 
+    text-align: justify;   
+}
+th, td {
+    padding: 0px 15px 0px 100px;
+}
+.th1_tabla{
+    text-align: left;
+}
+.th2_tabla{
+    text-align:center;
+}
+.union{
+    width: 100%;
+    max-width:1200px;
+    margin: auto;
+}
+.union2{     
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.union3{     
+    margin-left: 60px;
+    margin-top: 5px;
+}
+#balon{
+    float:right;
+    margin: 0px 190px;
+    width: 440px;
+}
+#piccontacto{
+    float:right;
+    margin: 0px 350px;
+    width: 440px;
+}
+#campofutbol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 550px;
+    border-radius: 20px;
+}
+
+#logo{
+    width:100px;
+    height:100px;
+}
+
+#tituloWeb{
+    position:relative; 
+    bottom:48px;
+    color: green;
+    font-size: 30px;
+}
+    
+header{
+    background: grey
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 625px;
+    overflow: hidden;
+    background-color: black;
+}
+.menu2 {
+    background-color: #4CAF50;
+    float: left;
+    border-right: 1px solid black;
+}
+.menu3 {
+    background-color: grey;
+    float: left;
+    border-right: 1px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: black;
+} 
+
+  
+.regist{
+      border-style:double;
+      margin: 75px 250px 50px 200px;
+      padding:10px 0px 0px 10px;
+      background: #F5F5F5;
+}
+
+.regist2{
+    margin: 40px 450px 75px 250px; 
+    text-align: justify;   
+}
+
+.mapa{
+    display: block;
+    padding: 0px 0px 0px 350px;
+}
+#boton{
+    padding:10px 50px;    
+    color: white;
+    background: green;
+    margin: 0px 265px;
+}
+.form{
+    font-size:30px;
+    text-align:center;
+}
+
+.footer{
+    background-color: grey;
+    color:white;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
